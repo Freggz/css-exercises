@@ -13,24 +13,31 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 8px;
+  padding:8px;
+  justify-content: space-between;
 }
 
-.profile-image {
-  background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-  border-radius: 50%;
-  width: 48px;
-  height:  48px;
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
+
 
 .logo {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
 }
 
 button {
@@ -47,16 +54,11 @@ a {
   color: rebeccapurple;
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 16px;
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height:  48px;
 }
 
-.left, .right {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
